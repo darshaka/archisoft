@@ -1,5 +1,5 @@
 server:
-  port: 8873
+  port: 8875
 
 spring:
   data:
@@ -7,7 +7,7 @@ spring:
       uri: mongodb://192.168.0.207:27017
       database: agc_cdm
   profiles:
-    active: prod
+    active: dev
 
 logging:
   level:
@@ -18,5 +18,4 @@ logging:
     file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} -%msg%n"
   file: /home/tharanga/workspace/archisoft/demo/log/DemoMTxBuznature-archisoft.log
 
-
-message:  prod-environment
+message:  dev-environment
