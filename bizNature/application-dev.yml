@@ -18,3 +18,4 @@ logging:
     file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} -%msg%n"
   file: /home/tharanga/workspace/archisoft/demo/log/DemoMTxBuznature-archisoft.log
 
+message:  dev-environment
