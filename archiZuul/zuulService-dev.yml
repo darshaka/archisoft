@@ -1,3 +1,6 @@
+server:
+  port: 8899
+
 eureka:
   client:
     serviceUrl:
@@ -5,8 +8,8 @@ eureka:
   profiles:
     active: dev
 
-server:
-  port: 8899
+    #server:
+    #port: 8899
 
 spring:
   data:
