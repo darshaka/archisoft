@@ -13,12 +13,12 @@ spring:
     port: 587
     username: dahamyuth06@gmail.com
     password: Zaq1xsw2@1983
-  properties:
-    mail:
-      smtp:
-        auth: true
-        starttls:
-          enable: true
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
 
 logging:
   level:
