@@ -8,6 +8,17 @@ spring:
       database: agc_cdm
   profiles:
     active: dev
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: dahamyuth06@gmail.com
+    password: Zaq1xsw2@1983
+  properties:
+    mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
 
 logging:
   level:
@@ -22,18 +33,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
-
-spring:
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: dahamyuth06@gmail.com
-    password: Zaq1xsw2@1983
-  properties:
-    mail:
-      smtp:
-        auth: true
-        starttls:
-          enable: true
 
 message:  dev-environment
