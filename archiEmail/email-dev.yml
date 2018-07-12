@@ -1,5 +1,5 @@
-server:
-  port: 8820
+#server:
+#  port: 8820
 
 spring:
   data:
